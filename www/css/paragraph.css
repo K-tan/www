@@ -1,0 +1,12 @@
+#paragraph {
+  color: #424242;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  font-weight: 100;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 14pt;
+  font-variant: small-caps;
+  font-style: normal;
+}

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/* GRID */
+.container {
+text-align: center;
+width: 1000px;
+height: 100vh;
+max-width: 100%;
+ margin: auto;
+ display: grid;
+ grid-template-rows: 2fr 10fr 1fr 1fr;
+ grid-template-areas:
+   "header"
+   "nav"
+   "slider"
+   "paragraph"
+   "footer";
+ font-family: 'Fira Sans', sans-serif;
+}
+
+#header {
+  grid-area: "header";
+  /* border: 1px solid red; */
+  background-color: white;
+  /* color: #ff005e; */
+}
+
+#nav {
+  grid-area: "nav";
+
+}
+
+#slider {
+  grid-area: "slider"
+}
+
+#paragraph {
+  grid-area: "paragraph";
+  /* border: 1px solid orange; */
+
+}
+
+#footer {
+  grid-area: "footer";
+  /* border: 1px solid green; */
+}

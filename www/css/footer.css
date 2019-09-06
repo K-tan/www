@@ -1,0 +1,9 @@
+/* FOOTER */
+#footer {
+  position: sticky;
+  background-color: #ff005e;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 12px;
+}
